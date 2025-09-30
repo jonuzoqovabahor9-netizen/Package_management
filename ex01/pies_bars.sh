@@ -1,4 +1,4 @@
 #!/bin/bash
-echo -e "\e[36m ▇ Pies\e[0m   \e[31m ▇ Bars\e[0m"
-termgraph data.txt --color cyan red --delim ,
 
+echo -e "\e[33m ▇ Pies\e[0m     \e[32m Bars\e[0m"
+termgraph data.csv --color yellow green --delim ,
